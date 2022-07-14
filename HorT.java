@@ -28,10 +28,10 @@ public class HorT {
         }
         System.out.println("Heads:"+hc+",Tails"+tc);
         if(hc>tc){
-            System.out.println("You won");
+            System.out.println(str+" won!");
         }
         else{
-            System.out.println("You lost");
+            System.out.println(str+" lost");
         }
     }
 }
